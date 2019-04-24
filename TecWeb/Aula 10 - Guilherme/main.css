@@ -1,0 +1,38 @@
+html{
+
+    box-sizing: border-box;
+
+}
+
+body{
+    background-color: #eee;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.container{
+    width: 50%;
+    height: 50%;
+    padding: 10px;
+    border-style: solid;
+    
+}
+
+.acc-header{
+    background-color: white;
+    cursor: pointer;
+    border:none;
+    padding: 10px;
+    align-items: center;
+
+}
+.acc-header:hover{
+    background-color: aqua;
+}
+.acc-body{
+    border:none;
+    padding: 10px;
+    overflow: hidden;
+    display: none;
+}
